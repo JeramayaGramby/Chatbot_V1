@@ -1,0 +1,239 @@
+{"intents": [
+    {"tag": "Number of Championships",
+      "patterns": ["How many championships do the golden state warriors have",
+        "How many trophies do the golden state warriors have","warriors total championships"],
+      "responses": ["The Warriors won 7 championships in 1947, 1956, 1975, 2015, 2017, 2018 and 2022 respectively"]}
+    ,
+  
+    {"tag": "Highest draft pick",
+      "patterns": ["What is the Warriors highest draft pick","golden state highest pick","highest pick","best draft pick",
+      "highest draft number"],
+      "responses": ["The Warriors had the Number 1 overall pick in 1980 and 1995. Fun Fact: Both of the Warrior's number one picks are named Joe! (Joe Barry Carroll 1980, Joe Smith 1995)"]},
+  
+    {"tag": "Year of first championship",
+      "patterns": ["What year did the Warriors win their first championship?","first championship",
+        "warriors first championship","When did the warriors win their first championship"],
+      "responses": ["In 1947 the Philadelphia Warriors became one of the first teams in the brand new NBA to win a championships"]},
+  
+    {"tag": "Golden State original location",
+      "patterns": ["Where were the Golden State Warriors originally located?","golden state first location"],
+      "responses": ["Philadelphia","The city of brotherly love","Philly"]},
+  
+    {"tag": "Steph Curry",
+      "patterns": ["When was Curry drafted","curry draft","When was Steph Curry drafted","How many rings does Curry have",
+        "Curry rings","Curry Championships"],
+      "responses": ["Drafted 7th overall in the 2009 NBA Draft, Steph Curry is a two time MVP and one time Finals MVP, he has 4 championships, a scoring title and 8 all star appearances to boot"]},
+  
+    {"tag": "Klay Thompson",
+      "patterns": ["When was Klay drafted","Klay Thompson draft","When was Klay Thompson drafted",
+        "How many rings does Klay have"],
+      "responses": ["Drafted 11th overall in the 2011 NBA Draft, Klay Thompson's shooting prowess has earned him 4 championships, 5 All-Star Appearances and many individual game scoring streaks including the most 3 pointers in a game and scoring the most amount of points in a quarter"]},
+  
+    {"tag": "Draymond Green",
+      "patterns": ["When was Draymond drafted","Draymond Green draft","When was Klay Thompson drafted",
+        "How many rings does Klay have"],
+      "responses": ["Drafted 35th overall in the 2012 NBA Draft, Draymond Green's unique combination of playmaking, defense and basketball intelligence have earned him 4 championships, 3 all-star appearances, many triple double statlines and two previously disgruntled teammates"]},
+  
+    {"tag": "Chris Webber",
+      "patterns": ["Where were the Golden State Warriors originally located?","golden state first location"],
+      "responses": ["Traded on draft night to Golden State as the number 1 overall pick in the 1995 NBA Draft, Chris Webber played one polarizing season for Golden State winning rookie of the year and was traded the following season after continued disagreements with Webber and head coach Don Nelson."]},
+  
+    {"tag": "Monta Ellis",
+      "patterns": ["When was Monta drafted","Monta Ellis draft","When was Monta Ellis drafted",
+        "Monta","Monta Ellis"],
+      "responses": ["Drafted 40th overall in the 2005 NBA Draft as a high school senior, Monta Ellis played 7 seasons for the Warriors. Despite averaging a career and team high 25.5 PPG along with several other 20 PPG seasons, his only NBA accomplishment is winning 2007's Most Improved Player Award."]},
+  
+    {"tag": "Gilbert Arenas",
+      "patterns": ["Where were the Golden State Warriors originally located?","golden state first location"],
+      "responses": ["Selected with the 31st overall pick in the 2001 NBA Draft, No Chill Gil received the NBA Most Improved Player Award in his second season for the Warriors and was traded to the Washington Wizards in 2003."]},
+  
+    {"tag": "Drafted players traded on draft night",
+      "patterns": ["Was Vince Carter drafted to the Warriors","Vince Carter","Vince Carter draft","VC draft",
+        "Did VC play for Golden State, Did Penny Hardaway play for Golden State","Vince Carter","Vince Carter draft","VC draft",
+        "Did Penny play for Golden State, Penny Hardaway Golden State, Penny Hardaway warriors","Penny warriors",
+        "Hardaway warriors"],
+      "responses": ["Believe it or not Vince Carter and Penny Hardaway were both drafted to the Warriors in 1998 and 1993 respectively but were traded immediately on draft night"]},
+  
+    {"tag": "Mitch Richmond",
+      "patterns": ["Where were the Golden State Warriors originally located?","golden state first location"],
+      "responses": ["Drafted 5th overall in the 1988 NBA draft, Mitch Richmond provided an immediate positive impact for the Warriors winning rookie of the year while averaging 22 PPG. He was traded in 1991 after three highly productive seasons with the Warriors."]},
+  
+    {"tag": "Chris Mullin",
+      "patterns": ["Where were the Golden State Warriors originally located?","golden state first location"],
+      "responses": ["Drafted 7th overall in the 1985 draft, Chris Mullin played 13 seasons with the Warriors making 5 playoff appearances while being a highly impactful player on offense and defense. He was inducted into the Hall of Fame twice, and his number 17 is retired by the team"]},
+  
+    {"tag": "Rick Barry",
+      "patterns": ["underhanded shot","Who shot underhanded","granny shot","who used the granny shot",
+        "When was Rick Barry drafted, rick barry, Rick Barry draft"],
+      "responses": ["Drafted 2nd overall in the 1965 NBA Draft, the Hall of Fame basketball player Rick Barry played 7 seasons in Golden State (1965-1967) (1972-1978). He won Rookie of the year in his first season and won his first NBA championship as a member of the Warriors in 1975 while being named Finals MVP. His 'granny shot' technique helped him swish 89% of his free throws in his career."]},
+  
+    {"tag": "Latrell Sprewell",
+      "patterns": ["When was latrell sprewell drafted", "latrell sprewell", "Latrell Sprewell draft",
+        "who choked their coach"],
+      "responses": ["Selected 24th overall in the 1992 NBA draft by the Golden State Warriors. Sprewell, nicknamed \"Spree\", made an immediate impact, averaging 15.4 points per game. By his second season, he helped lead the Warriors to the playoffs. By his third season, Sprewell was a first time all star. Despite his impressive career accomplishments, he is most well known for his blunders and off court issues. These include choking and punching his head coach, fighting many of his teammates and defaulting on all his assets."]},
+  
+    {"tag": "Most threes in a game",
+      "patterns": ["Most threes in a game","threes in a game record","What's the record for most threes in a game",
+        "most threes in one game","Warriors most threes in one game"],
+      "responses": ["On October 29, 2018 Klay Thompson made 14 three pointers in a game narrowly eclipsing his fellow teammate Steph Curry's record by just 1 made 3 pointer"]},
+  
+    {"tag": "Jason Richardson",
+      "patterns": ["When was Jason Richardson drafted", "jason richardson", "jason richardson draft",
+        "best warriors dunker"],
+      "responses": ["Drafted with the 5th overall pick in the 2001 NBA Draft, J-Rich was an electric high-flying scoring guard that played 6 seasons with the Warriors while winning the Slam Dunk Contest in his second and third year."]},
+  
+    {"tag": "Wilt Chamberlain",
+      "patterns": ["When was Wilt Chamberlain drafted", "wilt chamberlain", "wilt chamberlain draft",
+        "wilt the stilt","score 100 points in a game","best nba statline","What was the first jersey number retired by the Golden State Warriors?"],
+      "responses": ["Drafted with a territorial pick to the Philadelphia Warriors in 1959, Wilt Chamberlain was a unicorn athlete. While playing for the Warriors, WIlt scored 100 points in a game, averaged 50 PPG in his 3rd season, averaged over 27 rebounds a game in his 2nd season, averaged 48 minutes per game in his 3rd season and he even broke the University of Kansas's single game scoring and rebounding record in his first ever college game. In his first year with the Warriors he won Rookie of the Year and the MVP award. Sadly, he was traded to the 76ers in his 7th year. His #13 was the first number to be retired by the Warriors in 1991"]},
+  
+    {"tag": "Kevin Durant",
+      "patterns": ["Kevin Durant draft","slim reaper","When was kevin durant drafted",
+        "How long did kevin durant play for the warriors","kevin durant"],
+      "responses": ["Drafted 2nd overall by the now-defunct Seattle SuperSonics in 2007, Kevin Durant has had a polarizing career alongside his once-in-a-generation scoring prowess. This unique talent signed to the Warriors in the 2016 offseason. From 2016 to 2019 he amassed 2 championships and Finals MVP awards. Following the 2019 Finals loss to the Toronto Raptors, he signed with the Brooklyn Nets where he currently plays."]},
+  
+    {"tag": "Tim Hardaway",
+      "patterns": ["Tim Hardaway draft","When was Jason Richardson drafted", "tim hardaway","who invented the crossover"
+      ,"who invented the crossover","first player to popularize the crossover","crossover move"],
+      "responses": ["Drafted 14th overall in 1989, Tim Hardaway was the lead point guard for the Run-TMC Warriors. He made the playoffs in his second season averaging nearly 23 points and 10 assists per game. He is most notable for his 'killer' crossover move that utilized a sudden change of speed and direction to throw off his defenders. He spent 7 seasons with the Warriors before a mid season trade sent Hardaway to Miami in 1996."]},
+  
+    {"tag": "73-9",
+      "patterns": ["73-9","best season","best regular season","best record","best regular season record",
+        "greatest team","3-1 lead",""],
+      "responses": ["In the Warrior's 2015-16 season they won 73 out of 82 regular season games, beating out the 1996 Chicago Bulls record by one game. Unfortunately the Warriors blew a 3-1 lead in the NBA Finals against the Lebron James-led Cavaliers and could not win the 2016 championship."]},
+  
+    {"tag": "What is the best postseason record",
+      "patterns": ["best finals record","golden state best finals record","What's Golden State's best finals record",
+        "all-time finals record"],
+      "responses": ["In the 2017 NBA Finals Golden State won 16 postseason games with one loss. This was also during Kevin Durant's first season with the Warriors"]},
+  
+    {"tag": "Golden State original location",
+      "patterns": ["Where were the Golden State Warriors originally located?","golden state first location",
+        "golden state original location","golden state original city"],
+      "responses": ["Philadelphia","The city of brotherly love","Philly"]},
+  
+    {"tag": "greetings",
+      "patterns": ["hello","hey","good day","greetings","what's up?", "how is it going?","hi","help","can you help me",
+        "good afternoon","good evening",
+        "hello?","what's up"],
+      "responses": ["Hello! My name is Swish. I am an AI that can tell you everything you'd ever wanted to know about the Golden State Warriors. Please say 'next' to continue"]},
+  
+    {"tag": "next response",
+      "patterns": ["next","Next","NEXT"],
+      "responses": ["Please be sure to respond with keywords or entire phrases, ex: arena location or Where does Golden State play\n And remember! Currently I can only answer common trivia questions about the Golden State Warriors. Ask away!"]},
+  
+    {"tag": "goodbye",
+      "patterns": ["bye","goodbye","peace","enough","good bye", "that's all", "I'm done", "end", "exit", "that's it",
+        "we're done", "im done", "were done", "were finished", "we're finished", "thats all", "goodnight"],
+      "responses": ["Goodbye, it was a pleasure to serve you today!","Have a good day!","See you again soon!"]},
+  
+    {"tag": "Curry all-time points",
+      "patterns": ["Where is Steph Curry on the all time score list","Where is Curry on the all time scoring list",
+        "where does steph curry rank all time for scoring","Curry all-time points","Stephen Curry total points","good day","greetings","what's up?", "how is it going?","hi","help","can you help me",
+        "hello?","what's up"],
+      "responses": ["As of 12/7/2022, Stephen Curry is the 43rd all-time leading scorer. He is currently on pace to be the 35th leading scorer at the end of the 2022-2023 regular season"]},
+  
+    {"tag": "Golden State current location",
+      "patterns": ["Where is Golden State's current location?","Where is Golden State located?","gsw current location","current location","arena location","arena name","Where does Golden State play?",
+        "hello?","what's up"],
+      "responses": ["Chase Center in San Francisco","They are located in San Francisco and play in the Chase Center","Chase Center"]},
+  
+    {"tag": "Golden State locations",
+      "patterns": ["previous stadium locations","stadium locations","Warriors previous names","previous locations",
+        "all warrior team names", "team names"],
+      "responses": ["From 1946 to 1962, the team was known as the Philadelphia Warriors. From 1962 to 1971, they were known as the San Francisco Warriors. The Golden State name has been around since 1971 despite recently moving to San Francisco."]},
+  
+    {"tag": "Retired Numbers",
+      "patterns": ["What are the retired numbers for the warriors","retired golden state numbers",
+        "currently retired numbers","warriors retired numbers","retired jerseys","retired numbers"],
+      "responses": ["13, Wilt Chamberlain. 14, Tom Meschery. 16, Al Attles. 17, Chris Mullin. 24, Rick Barry. 42, Nate Thurmond"]},
+  
+    {"tag": "Tallest Player",
+      "patterns": ["Who's the tallest warriors player","who was the tallest player for the golden state warriors",
+        "who was the tallest player that ever played for the golden state warriors","warriors tallest player"],
+      "responses": ["Standing at 7 feet and 7 inches or 231.14 cm tall, Manute Bol is not only the tallest player in Warriors history but is also tied for the tallest player in NBA History."]},
+  
+    {"tag": "Shortest Player",
+      "patterns": ["Who's the shortest warriors player","who was the shortest player for the golden state warriors",
+        "who was the shortest player that ever played for the golden state warriors","warriors shortest player"],
+      "responses": ["Standing at 5 feet 3 inches or 160.02 cm tall, Muggsy Bogues is the shortest player in Warriors history as well as the shortest player in NBA History"]},
+  
+    {"tag": "Assist Leader",
+      "patterns": ["Who is Golden State's all time assist leader","Golden state all time assists",
+        "leading assists","assist leader","most assists"],
+      "responses": ["Steph Curry"]},
+  
+    {"tag": "Scoring Leader",
+      "patterns": ["Who is Golden State's all time assist leader","Golden state all time assists",
+        "leading assists","assist leader","most points"],
+      "responses": ["Steph Curry"]},
+  
+    {"tag": "Rebounding Leader",
+      "patterns": ["Who is Golden State's all time rebound leader","Golden state all time rebounds",
+        "leading rebounds","rebound leader"],
+      "responses": ["Nate Thurmond with 12,771 rebounds"]},
+  
+    {"tag": "Fouls",
+      "patterns": ["Who is Golden State's all time steals leader","Golden state all time rebounds",
+        "leading steals","steals leader","most steals","greatest thief"],
+      "responses": ["Paul Arizin with 2764 fouls"]},
+  
+    {"tag": "Steals Leader",
+      "patterns": ["Who is Golden State's all time steals leader","Golden state all time rebounds",
+        "leading steals","steals leader","most steals","greatest thief"],
+      "responses": ["In 2022 Steph Curry surpassed Chris Mullin as the all time steals leader","Steph Curry"]},
+  
+    {"tag": "Blocks Leader",
+      "patterns": ["Who is Golden State's all time blocks leader","Golden state all time blocks",
+        "leading blocks","block leader","most blocks","best shot blocker"],
+      "responses": ["Adonal Foyle with 1140 blocks"]},
+  
+    {"tag": "Turnover Leader",
+      "patterns": ["Who is Golden State's all time turnover leader","Golden state all time turnovers",
+        "most turnovers","turnover leaders"],
+      "responses": ["Steph Curry"]},
+  
+    {"tag": "Team Owners",
+      "patterns": ["Who is Golden State's owners","Who owns the Golden State Warriors",
+        "team owner","team owners"],
+      "responses": ["Joe Lacob is the majority owner and Peter Guber is the minority owner","Joe Lacob and Peter Guber"]},
+  
+    {"tag": "Assistant GM",
+      "patterns": ["Who is Golden State's Assistant GM","Golden state Assistant GM", "assistant gm",
+        "Assistant General Manager", "Assistant General manager of the Golden State Warriors"],
+      "responses": ["Mike Dunleavy, Jr.","Fun Fact! Mike Dunleavy Jr, the assistant GM, was drafted 3rd overall in 2002 by the Golden State Warriors. The Warriors sure are a team that keeps talent!"]},
+  
+    {"tag": "GM",
+      "patterns": ["Who is Golden State's GM","Golden state GM", "gm","General Manager",
+        "General manager of the Golden State Warriors","president of basketball","president of basketball operations"],
+      "responses": ["Bob Myers","The man, the myth, the legend, Bob Myers", "Legendary NBA executive Bob Myers",
+        "The almighty Bob Myers"]},
+  
+    {"tag": "Head Coach",
+      "patterns": ["Who is Golden State's head coach","Golden state head coach", "primary coach","head coach",
+        "head coach of the Golden State Warriors"],
+      "responses": ["Steve Kerr","Steve Kerr, The only living man with 9 NBA Championships", "Legendary NBA coach Steve Kerr"
+        ]},
+  
+    {"tag": "Assistant Coach",
+      "patterns": ["Who is Golden State's assistant coach","Golden state assistant coach", "assistant coach","head coach",
+        "head coach of the Golden State Warriors"],
+      "responses": ["Steve Kerr","Steve Kerr, The only living man with 9 NBA Championships", "Legendary NBA coach Steve Kerr"
+        ]},
+  
+    {"tag": "Run TMC",
+      "patterns": ["Who was Run TMC","Run TMC names","run-tmc","Who was in run tmc","Run TMC History, who was run tmc",
+        "Run TMC"],
+      "responses": ["Run TMC was the name for the trio of the three Hall of Fame players Tim Hardaway, Mitch Richmond, and Chris Mullin. Their offensive production led to the highest regular season game score without overtime in NBA history (162 points) while being the highest scoring trio in the 1990-91 season (72.5 PPG)"]},
+  
+    {"tag": "Biggest Rival",
+      "patterns": ["Who holds the franchise single-season record for assists?","all time assists","main rival",
+        "main enemy"],
+      "responses": ["The Cleveland Cavaliers","Los Angeles Lakers","Any Lebron-led team since 2015"]},
+  
+    {"tag": "Division",
+      "patterns": ["What division are the Warriors in","warriors division","warriors conference",
+        "main enemy"],
+      "responses": ["The Warriors play in the Pacific Division in the Western Conference. This division also includes the Los Angeles Clippers, the Los Angeles Lakers, the Phoenix Suns and the Sacramento Kings."]}
+  
+  ]}
