@@ -17,11 +17,6 @@ with open('intents.json', "r", encoding='utf-8') as swish_questions:
     intents = json.loads(swish_questions.read(), strict=False)
 
 
-print(intents['intents'][:][0:47])
-
-
-# intents['intents'][:][0]
-'''
 words = []
 classes = []
 documents = []
@@ -29,12 +24,13 @@ documents = []
 ignore_letters = ['?','!','.',',']
 
 for intent in intents['intents']:
-    for pattern in intents['intents'][1]['patterns']:
-        word_list = nltk.word_tokenize(pattern)
-        words.extend(word_list)
-        documents.append((word_list, intent[intents[1]['tag']]))
-        if intents['intents'][1]['tag'] not in classes:
-            classes.append(intent['tag'])
+    for i in range(0,47):
+        for pattern in intents['intents'][i]['patterns']:
+            word_list = nltk.word_tokenize(pattern)
+            words.extend(word_list)
+            documents.append((word_list, intents['intents'][i]['tag']))
+            if intents['intents'][i]['tag'] not in classes:
+                classes.append(intent['tag'])
 
 # print(documents)
 
@@ -47,10 +43,10 @@ classes = sorted(set(classes))
 
 pickle.dump(words,open('words.pk1','wb'))
 pickle.dump(classes,open('classes.pk1','wb'))
-'''
+
 
 '''Configuring the neural network by vectorizing word inputs in a bag of words model'''
-'''
+
 training = []
 output_empty = [0] * len(classes)
 for document in documents:
@@ -69,9 +65,9 @@ training = np.array(training)
 
 train_x = list(training[:,0])
 train_y = list(training[:,1])
-'''
+
 '''Creating the neural network'''
-'''
+
 model = Sequential()
 model.add(Dense(128, input_shape=(len(train_x[0]),), activation='relu'))
 model.add(Dropout(0.5))
@@ -87,5 +83,3 @@ hist = model.fit(np.array(train_x),np.array(train_y),
 model.save('Swish V1.model', hist)
 
 print('Swish V1 has completed training')
-
-'''
