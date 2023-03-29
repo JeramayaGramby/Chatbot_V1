@@ -4,9 +4,9 @@ import nltk
 import numpy as np
 import pickle
 import random
+from tensorflow import keras
 from keras.models import load_model
 from nltk.stem import WordNetLemmatizer
-from numba import jit
 
 
 
@@ -14,19 +14,20 @@ from numba import jit
 lemmatizer = WordNetLemmatizer
 intents = json.loads(open('intents.json').read())
 
-words = pickle.load(open('words.pkl','rb'))
-classes = pickle.load(open('classes.pkl','rb'))
+words = pickle.load(open('words.pk1','rb'))
+classes = pickle.load(open('classes.pk1','rb'))
 model = load_model('Swish V1.model')
 
 '''Converting the neural networks raw data'''
 
-@jit(nopython=True)
 def clean_up_sentence(sentence):
     sentence_words = nltk.word_tokenize(sentence)
-    sentence_words = [lemmatizer.lemmatize(word) for word in sentence_words]
+    
+    for word in sentence_words:
+        sentence_words = lemmatizer.lemmatize(self=lemmatizer,word=word)
+    
     return sentence_words
 
-@jit(nopython=True)
 def bag_of_words_converter(sentence):
     sentence_words = clean_up_sentence(sentence)
     bag = [0] * len(words)
@@ -37,10 +38,9 @@ def bag_of_words_converter(sentence):
                 bag[i] = 1
     return np.array(bag)
 
-@jit(nopython=True)
 def class_predictor(sentence):
     bow = bag_of_words_converter(sentence)
-    res = model.predict(np.array([bow]))[0]
+    res = model.predict(np.array([bow]))
     ERROR_THRESHOLD = 0.25
     results = [[i,res] for i in enumerate(res) if res > ERROR_THRESHOLD]
     results.sort(key=lambda x: x[1], reverse=True)
@@ -49,7 +49,7 @@ def class_predictor(sentence):
     for r in results:
         return_list.append({'intent':classes[r[0]], 'probability':str(r[1])})
 
-@jit(nopython=True)
+
 def get_response(intents_list,intents_json):
     tag = intents_list[0]['intent']
     list_of_intents = intents_json['intents']
@@ -61,13 +61,9 @@ def get_response(intents_list,intents_json):
 
 print("Swish V1 is currently online")
 
-@jit(nopython=True)
-def chatbot_operator():
-    while True:
-        message = input("")
-        ints = class_predictor(message)
-        res = get_response(ints,intents)
-        print(res)
 
-if __name__ == '__main__':
-    chatbot_operator()
+while True:
+    message = input("")
+    ints = class_predictor(message)
+    res = get_response(ints,intents)
+    print(res)
